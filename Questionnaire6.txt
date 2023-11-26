@@ -1,0 +1,32 @@
+ID: 6
+Title: Questionario sobre comida
+bem vindo ao questionario sobre comida
+
+Section ID: 1
+Section Title: comida de prato
+sinceridade
+{optional}
+Section Repeat: 1
+
+Question Type: 1
+Question ID: 1
+que comida prefere?
+{optional}
+Extra Info: no info
+
+Section ID: 2
+Section Title: secao de bebidas
+siga
+{optional}
+Section Repeat: 1
+
+Question Type: 2
+Question ID: 1
+que tipo de bebida prefere?
+A. com alcoo
+B. Sem alcool
+C. nao bebo
+{optional}
+Extra Info: no info
+
+Final Message: obrigado por participar

@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant AGV_DigitalTwin <<client>>
+
+loop true
+activate AGV_Manager
+AGV_Manager -> AGV_Manager: accept
+
+AGV_DigitalTwin --> AGV_Manager: request
+activate AGV_DigitalTwin
+participant Client <<thread>>
+activate Client
+AGV_Manager -\ Client: start
+deactivate AGV_Manager
+end
+
+Client -> MessageParser:parse(request)
+activate MessageParser
+create MessageProtocolRequest <<abstract>>
+MessageParser -> MessageProtocolRequest:new
+deactivate MessageParser
+Client -> MessageProtocolRequest: execute
+activate MessageProtocolRequest
+MessageProtocolRequest --> Client: response
+deactivate MessageProtocolRequest
+
+Client --> AGV_DigitalTwin: response
+deactivate Client
+
+@enduml

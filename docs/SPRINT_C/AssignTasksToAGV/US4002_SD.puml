@@ -1,0 +1,38 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "AGV Manager" as actor
+participant ": AGVManagerUI" as ui
+participant ": AGVManagerController" as ctrl
+participant ": AGVConfigurationController" as ctrlAGV
+participant ": ProductOrderController" as ctrlOrder
+participant ": TaskTimer" as timer
+
+
+loop Give Task to AGV
+actor -> ui: Automatic sign task to AGV
+activate ui
+activate actor
+activate ctrl
+ui-> ctrl: mainLoop
+activate ctrlAGV
+ctrl -> ctrlAGV: findAllAGV
+ctrlAGV -> ctrl: gives all found AGV
+deactivate ctrlAGV
+
+activate ctrlOrder
+ctrl -> ctrlOrder: findAllProductOrder
+ctrlOrder -> ctrl: gives all found Product Order
+deactivate ctrlOrder
+ctrl -> ctrl: addTaskToAgv
+activate timer
+ctrl -> timer: gives agv a Task
+timer-> ctrl: task ended
+deactivate timer
+
+
+
+end
+@enduml

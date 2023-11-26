@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor SalesClerk
+activate SalesClerk
+
+SalesClerk -> SearchProductsUI : Asks for product catalog
+activate SearchProductsUI
+SearchProductsUI --> SalesClerk : Asks for filters or show all
+deactivate SearchProductsUI
+SalesClerk -> SearchProductsUI : Chooses one option
+activate SearchProductsUI
+alt option = show all
+
+    SearchProductsUI -> SearchProductsController : showAll()
+    activate SearchProductsController
+    SearchProductsController -> ProductRepository : findAll()
+    deactivate SearchProductsController
+    activate ProductRepository
+
+
+
+
+
+
+
+else option = filters
+
+
+    loop while add another filter = 1
+
+    SearchProductsUI --> SalesClerk : Asks for filter
+    deactivate SearchProductsUI
+    SalesClerk -> SearchProductsUI : Chooses filters
+    activate SearchProductsUI
+
+
+    alt option = Category
+
+         SearchProductsUI --> SalesClerk : Show a list of Category's and asks for one
+         SalesClerk -> SearchProductsUI : Chooses Category
+         SearchProductsUI -> SearchProductsController : filterByCategory()
+         activate SearchProductsController
+         SearchProductsController -> ProductRepository : findByCategory()
+         deactivate SearchProductsController
+
+    else option = Description
+
+        SearchProductsUI --> SalesClerk : Show a list of Descriptions and asks for one
+        SalesClerk -> SearchProductsUI : Chooses Description
+        SearchProductsUI -> SearchProductsController : filterByDescription()
+        activate SearchProductsController
+        SearchProductsController -> ProductRepository : findByDescription()
+        deactivate SearchProductsController
+
+    else option = Brand
+
+        SearchProductsUI --> SalesClerk : Show a list of Brands and asks for one
+        SalesClerk -> SearchProductsUI : Chooses Brand;
+        SearchProductsUI -> SearchProductsController : filterByBrand()
+        activate SearchProductsController
+        SearchProductsController -> ProductRepository : findByBrand()
+        deactivate SearchProductsController
+    end
+
+
+  SearchProductsUI --> SalesClerk : Add another filter (1.yes / 2.no)
+  SalesClerk -> SearchProductsUI : Chooses one option
+
+  end
+
+
+end
+
+
+
+
+
+
+
+SearchProductsUI --> SalesClerk : Show products
+deactivate SearchProductsUI
+
+@enduml

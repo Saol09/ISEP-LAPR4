@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+hide footbox
+
+actor "Sales Clerk" as ator
+participant ChangeOrderStatusToBeingDeliveredUI as orderStatusUI <<presentation>>
+participant UpdateStatusToBeingPreparedController as changeOrderController <<application>>
+participant PersistenceContext as persistence <<persistence>>
+participant RepositoryFactory as factory <<factory>>
+database ProductOrderRepository as productOrderRepo <<repository>>
+participant "order:ProductOrder" as costumerOrder
+
+activate ator
+
+ator -> orderStatusUI: Wants to change the status of the order
+activate orderStatusUI
+orderStatusUI -> changeOrderController: dispatchedForCustomerDeliveryOrders()
+activate changeOrderController
+changeOrderController -> persistence: repositories()
+activate persistence
+persistence -> factory: create()
+activate factory
+deactivate factory
+deactivate persistence
+changeOrderController --> orderStatusUI: Iterable<ProductOrderDTO>
+deactivate changeOrderController
+orderStatusUI --> ator: Show orders and requests the order ID
+deactivate orderStatusUI
+ator -> orderStatusUI: Inserts the order ID
+activate orderStatusUI
+orderStatusUI -> changeOrderController: changeDispatchedToBeingDelivered(productOrderID)
+activate changeOrderController
+changeOrderController -> productOrderRepo: findByOrderId(id)
+activate productOrderRepo
+productOrderRepo --> changeOrderController: order
+deactivate productOrderRepo
+changeOrderController -> costumerOrder: changeDispatchedToBeingDelivered(ProductOrder.Status.BEING_DELIVERED);
+activate costumerOrder
+deactivate costumerOrder
+changeOrderController -> productOrderRepo: save(order)
+activate productOrderRepo
+deactivate productOrderRepo
+deactivate changeOrderController
+orderStatusUI --> ator: Informs Success
+deactivate ator
+
+
+@enduml

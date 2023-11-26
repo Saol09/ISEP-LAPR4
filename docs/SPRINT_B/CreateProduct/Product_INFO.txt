@@ -1,0 +1,266 @@
+The development team wonders whether in a product registration the attributes "photo", "internal code", "short description", "extended description", "technical description", "brand", "reference", "production code" are mandatory and how big they are?
+
+Some information regarding each of those attributes:
+
+- photo: it might be of any common format (e.g. png, jpeg, svg);
+
+- short description: not empty having 30 chars maximum;
+
+- extended description: not empty with a minimum of 20 chars and 100 chars maximum; DONE
+
+- technical description: multiple lines of text, preferably with no limit or the biggest possible.
+
+- brand: not empty having 50 chars maximum; DONE
+
+- reference: not empty alphanumeric code with at 23 chars maximum;
+
+- production code: not empty alphanumeric code with at 23 chars maximum however it might meet a given regular expression defined/configured at deployment time.
+
+- internal code: not empty alphanumeric code with at 23 chars maximum however it might meet a given regular expression defined/configured at deployment time.
+
+ 
+
+Mandatory attributes: internal code, short and extended description.
+
+In accordance with the specification document, other atributes might also be mandatory.
+
+--------------------------------------
+
+We would like to know if it will be needed to manage or create new product catalogs or if it's only needed to make searches into it.
+
+The "product catalog" corresponds to all products that can be ordered by customers.
+
+There is no need to manage distinct catalogs as usually happens with clothes where there is the  "Spring/Summer 22" catalog, then the  "Autumn/Winter 23" catalog, and so on..
+-------------------------------------------
+
+In document "brand name and reference." - Reference refers to the brand reference or product reference?
+
+The complete sentence is "Products basic information comprehends a unique internal code, a short and an extended description as well as a more technical description, a set of photos, a brand name and reference.".
+
+The intent was to express that a product has:
+
+a brand name (e.g.: "Samsung", "Nokia", "Bic"); and
+the product reference set by the brand, which is an alphanumeric code (max. 23 chars).
+I hope this explanation is more clear.
+
+----------------------------------------------
+About the photo in the product, we would like to know how it is associated to the product.
+
+Should we write the path to it, or should a window open to import the photo into the program?
+
+
+From a usability perspective, it would be better having a window (or any other way) to select the photo file to be uploaded.
+
+However, if by some reason that option is not viable by now the user can write the path but the system must validate it.
+
+------------------------------------------------
+
+Does the project support more than 1 currency, and if so which currencies should it support?
+
+Yes! The project must be prepared to easily support several currencies.
+
+The system should work adopting a base currency (e.g.: EUR) and, according to the customer location, be able to present prices on other currencies (e.g. USD) using an external currency converter.
+
+During the prototype development, using a currency converter should not be a major concern.
+
+------------------------------------------------
+
+Given that all the units of a product are located in a single warehouse, should in the moment of creation of the product the sales clerk chose one of the available?
+
+If so should it indicate the aisle, rowLine and shelf, where the products are located?
+
+
+Yes, the product location might be specified during US 1001.
+
+In this context, it is worth recalling the following:
+
+"The products’ location in the warehouse, which corresponds to a storage area i.e., the aisle identifier, the rowLine identifier, and the shelf identifier. All these identifiers are numeric. Products with an unknown location cannot the ordered." (cf. specifications document).
+
+--------------------------------------------------
+
+We have some questions regarding the creation of a product (US1001). Are the internal code, production code and reference generated or entered?
+
+That information is all entered/typed by the user.
+
+------------------------------------
+
+Question 1:Regarding the barcode of the product should an image be generated or only the code be saved?
+
+Question 2:Regarding the measures of the product(column, weight) what are the units of measurement that should be supported?
+
+Q1: No image is required to be generated. 
+
+Q2: Millimeters.
+
+Here is the answer:
+- the width, length and height of a product is specified in millimeters;
+- the weight of the product is specified in grams.
+I hope this dispels all existing doubts.
+
+-------------------------------------
+
+Can the Product be a part of a Super Category and a Category or will the Product be a part of a Category and that Category is a part of the Super Category?
+
+As stated in the specifications' document:
+
+"By simplicity, a category consists only of an alphanumeric code, and a description. Each product belongs mandatorily to a single category."
+
+As so, and contrary to what is suggested in your question, there is no hierarchy between categories.
+
+------------------------------------------
+
+Is a product's availability related to wether they are in shelves or not? By that i mean, can a product be available even thought it isn't in a shelf or are they by default unavailable.
+
+
+Yes, please clarify on the properties of this availability. I think it's not very clear by the project description alone.
+
+----------------------------------------
+
+Inside of a rowLine should products of the same "id" or they can be different types of products inside the rowLine?
+If every rowLine has one "id" type of product will simplify things.
+
+
+Considering the following (from specifications' document):
+
+"This kind of warehouses are typically organized by aisles (or corridors), each aisle is vertically split on rows and each rowLine is horizontally split on/by shelves (cf. Figure 1). Each storage area, defined by a rowLine and a shelf,..."
+"The products’ location in the warehouse, which corresponds to a storage area i.e., the aisle identifier, the rowLine identifier, and the shelf identifier. All these identifiers are numeric. Products with an unknown location cannot the ordered."
+I believe that it is clear that on the same rowLine might exist different types of products.
+
+For instance, if the rowLine is split on two shelves, on one shelf might store units of product A while the other shelf might store units of product B.
+
+---------------------------------------------
+
+The development team wonders what attributes of the product may differ per unit, i.e. from unit 1 and unit 2 of product A what may be different?
+
+For simplicity, consider that there is no distinct attributes per product unit (e.g.: serial number).
+
+Managing products and product units would had an extra complexity layer that is not required at this moment.
+
+------------------------------------------------
+
+If we are not mistaken, a warehouse has multiple aisles, a aisle has multiple rows, a rowLine has multiple shelves and a shelf has multiple bins.
+
+If this logic is correct, that means that the product is a bin or is in a bin?
+
+As stated in the specifications document:
+
+"This kind of warehouses are typically organized by aisles (or corridors), each aisle is vertically split on rows and each rowLine is horizontally split on/by shelves (cf. Figure 1). Each storage area, defined by a rowLine and a shelf, comprehends multiple similar bins, each one having one product unit inside."
+
+So, what is really your doubt?
+
+----------------------------------------------
+
+We have a little doubt the occured to us a while ago.
+
+It's only required the "Price Without Taxes" and the "Price With Taxes" within the system, correct?
+
+"Since products’ prices vary through time (e.g.: promotions) and by applicable taxes that differ from one location/country to another, by now, it is just worth considering the current list price with and without taxes."
+
+How can I be more explicit than this?
+
+-------------------------------------------------
+
+We have some doubts about the best way to address the product location.
+
+It's in your interest to locate the product from his production code or only product code?
+
+
+
+I am not sure that I am fully understanding your question.
+
+Each product has a unique location.
+
+Products can be search/browsed by multiple attributes, including its product code, barcode, description(s) and production code.
+
+Our doubts are:
+1º - It's relevant for you to know the location of the product by filtering by production code?
+2º - One product can have multiple production code?
+3º - If the question 2 is yes, then the bin must be represented by production code?
+
+
+Here are the answers to your questions:
+1º - In some cases this filtering by production code may be useful. However, it will not be the main way of doing it.
+2º - No.
+3º - No.
+
+---------------------------------------
+
+I would like to know if the product changes affect the shopping cart if the same exists in it? If it does, can we assume that all the attributes necessary will be updated in the shopping cart (i.e. price, designation)?
+
+f the information about a product is updated (e.g. price), the resulting changes might affect the content of every shopping cart the product is in.
+
+Example:
+
+- Customer C1 had product P_A to his shopping cart with a unitary price of 10€.
+
+- Later, the unitary price of P_A has changed to 9€.
+
+- When customer C1 checks his shopping cart again, he must see the new price. This is even more important while converting the shopping cart content on an order.
+
+------------------------------------
+
+Do we make the assumption that 1 product only has 1 location in the warehouse?
+
+To that point do we then consider that 1 product may only have 1 status at a time or can part of the product stay in place when another part is being taken by the AVG?
+
+First, I recall the following sentence from the specifications' document:
+
+"Despite several warehouses might exist and products be in multiple locations (i.e., storage areas) within the same warehouse, for the prototype development one will consider a single warehouse and a single product location on that warehouse."
+
+Regarding the second question, the AGV knows which product units are to be collected. While collecting a given product unit, all parts of such product unit are collected at once.
+
+------------------------------------
+
+
+
+Could you please clarify what the product barcode and production code consists of?
+
+Product barcode follow universal standards as EAN13, UPC and so on. The purpose is to univocally identify a given product.
+
+The production code is used for integration with other external systems, such as a manufacturing system.
+
+Is the barcode unique to each product unit or is it common to all units of that particular product?
+
+ 
+
+The product barcode is the same for all units of a given product.
+
+----------------------------------------
+
+Q: The descriptions that are mentioned several times (short, technical and extended) always follow the same business rules, or change rules when dealing with other business terms, ie the description of a Section has the same rules as the description of a Product?
+
+The rules may change according to the business term context..
+
+---------------------------------------
+
+May you please clarify how taxes are calculated for each product?
+
+We are aware that each country has a different tax rate for products, but is there a universal tax rate per country, are taxes divided into product categories or does each product have a completely different tax?
+
+During the prototype development, there is no need to spend efforts regarding products' tax rates and its computation.
+
+As stated in the specification document, regarding a product "by now, it is just worth considering the current list price with and without taxes." 
+
+Regarding a products order, it is similar. It is just worth computing/saving the "order total amount (before and after taxes)".
+
+Example:
+
+Product ID |  Quantity  | Unitary Price Before Taxes | Unitary Price After Taxes
+
+PRD.0001  |   2 | 10.00 | 12.30
+
+PRD.0002 |   1 |  5.00 | 6.15
+
+Total Order (before taxes): 25.00
+
+Total Order (after taxes): 30.75
+
+-------------------------------
+
+The development team wonders if the order volume and weight should be a calculated based on the products entered in it?
+
+Yes, of course.
+
+Regarding volume, for now, adopt a very basic algorithm to compute the approximate overall volume.
+
+--------------------------------

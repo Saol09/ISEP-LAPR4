@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+actor WarehouseEmployee
+
+WarehouseEmployee -> MainMenu: request upload/update JSON file with warehouse plant
+
+activate MainMenu
+
+MainMenu -> WarehouseUploadUI: create()
+
+deactivate MainMenu
+activate WarehouseUploadUI
+WarehouseEmployee <-- WarehouseUploadUI: asks for information
+deactivate WarehouseUploadUI
+
+
+WarehouseEmployee -> WarehouseUploadUI: chooses JSON file with warehouse plant
+activate WarehouseUploadUI
+
+WarehouseUploadUI -> WarehouseUploadController: createWarehousePlant(file);
+participant ": PersistanceContext" as persistance <<persistance>>
+participant ": RepositoryFactory" as factory <<factory>>
+participant "plantBuilder : PlantBuilder" as builder
+participant "repoWarehousePlant \n: RepoWarehousePlant" as plantRepo <<persistencia>>
+activate WarehouseUploadController
+WarehouseUploadController -> WarehouseUploadController:plantBuilder = newPlantBuilder()
+WarehouseUploadController -> builder : plant = build()
+activate builder
+builder -> "warehousePlant : WarehousePlant" **: create(file)
+deactivate builder
+WarehouseUploadController -> persistance: repoPlant = repositoryFactory
+activate persistance
+persistance -> factory: productRepository()
+activate factory
+deactivate
+deactivate
+WarehouseUploadController -> plantRepo : save(plant)
+activate plantRepo
+deactivate plantRepo
+WarehouseUploadUI <-- WarehouseUploadController:return
+WarehouseEmployee <-- WarehouseUploadUI: shows information requests confirmation
+deactivate WarehouseUploadController
+deactivate WarehouseUploadUI
+WarehouseEmployee -> WarehouseUploadUI: confirms the data
+activate WarehouseUploadUI
+
+WarehouseEmployee <-- WarehouseUploadUI: shows information
+deactivate WarehouseUploadUI
+
+
+@enduml

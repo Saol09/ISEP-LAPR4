@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1832px" preserveAspectRatio="none" style="width:1877px;height:1832px;background:#FFFFFF;" version="1.1" viewBox="0 0 1877 1832" width="1877px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="348.125" style="stroke:#181818;stroke-width:1.0;" width="10" x="314.5" y="114.9609"/><rect fill="#FFFFFF" height="348.125" style="stroke:#181818;stroke-width:1.0;" width="10" x="314.5" y="493.4375"/><rect fill="#FFFFFF" height="869.3438" style="stroke:#181818;stroke-width:1.0;" width="10" x="314.5" y="871.9141"/><rect fill="#FFFFFF" height="287.4219" style="stroke:#181818;stroke-width:1.0;" width="10" x="615.5" y="145.3125"/><rect fill="#FFFFFF" height="287.4219" style="stroke:#181818;stroke-width:1.0;" width="10" x="615.5" y="523.7891"/><rect fill="#FFFFFF" height="829.9922" style="stroke:#181818;stroke-width:1.0;" width="10" x="615.5" y="902.2656"/><rect fill="#FFFFFF" height="226.7188" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="175.6641"/><rect fill="#FFFFFF" height="226.7188" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="554.1406"/><rect fill="#FFFFFF" height="91.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="932.6172"/><rect fill="#FFFFFF" height="91.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="1054.0234"/><rect fill="#FFFFFF" height="194.3672" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="1477.1875"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1113" y="206.0156"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1113" y="1416.8359"/><rect fill="#FFFFFF" height="72.9609" style="stroke:#181818;stroke-width:1.0;" width="10" x="1257" y="292.0703"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1257" y="1356.4844"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="584.4922"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="962.9688"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="1084.375"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="1296.1328"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="1507.5391"/><rect fill="#FFFFFF" height="72.9609" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="670.5469"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="1175.4297"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="1235.7813"/><rect fill="#FFFFFF" height="72.9609" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="1568.2422"/><rect height="121.6641" style="stroke:#000000;stroke-width:1.5;fill:none;" width="637" x="841" y="251.3672"/><rect height="121.6641" style="stroke:#000000;stroke-width:1.5;fill:none;" width="1030.5" x="841" y="629.8438"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="75" x2="75" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="319.5" x2="319.5" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="620.5" x2="620.5" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="937" x2="937" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1118" x2="1118" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1262" x2="1262" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1403" x2="1403" y1="331.375" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1576" x2="1576" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1705" x2="1705" y1="82.6094" y2="1750.2578"/><line style="stroke:#181818;stroke-width:0.5;fill:none;stroke-dasharray:5.0,5.0;" x1="1824.5" x2="1824.5" y1="1607.5469" y2="1750.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="5" y="79.5332">WarehouseEmployee</text><ellipse cx="75.5" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M75.5,21.5 L75.5,48.5 M62.5,29.5 L88.5,29.5 M75.5,48.5 L62.5,63.5 M75.5,48.5 L88.5,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="5" y="1763.791">WarehouseEmployee</text><ellipse cx="75.5" cy="1775.3672" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M75.5,1783.3672 L75.5,1810.3672 M62.5,1791.3672 L88.5,1791.3672 M75.5,1810.3672 L62.5,1825.3672 M75.5,1810.3672 L88.5,1825.3672 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="250.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="257.5" y="71.5332">GiveOrderToAGVUI</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="250.5" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="257.5" y="1770.791">GiveOrderToAGVUI</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="188" x="526.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="533.5" y="71.5332">GiveOrderToAGVController</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="188" x="526.5" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="533.5" y="1770.791">GiveOrderToAGVController</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="851" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="858" y="71.5332">GiveOrderToAGVService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="851" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="858" y="1770.791">GiveOrderToAGVService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="168" x="1034" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1041" y="71.5332">ProductOrderRepository</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="168" x="1034" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1041" y="1770.791">ProductOrderRepository</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="1212" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1219" y="71.5332">ProductOrder</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="1212" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1219" y="1770.791">ProductOrder</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="1338" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1345" y="1770.791">ProductOrderDTO</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="196" x="1478" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="1485" y="71.5332">AGVConfigurationRepository</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="196" x="1478" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="1485" y="1770.791">AGVConfigurationRepository</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="43" x="1684" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="1691" y="71.5332">AGV</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="43" x="1684" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="1691" y="1770.791">AGV</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1788.5" y="1749.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1795.5" y="1770.791">AGVDTO</text><rect fill="#FFFFFF" height="348.125" style="stroke:#181818;stroke-width:1.0;" width="10" x="314.5" y="114.9609"/><rect fill="#FFFFFF" height="348.125" style="stroke:#181818;stroke-width:1.0;" width="10" x="314.5" y="493.4375"/><rect fill="#FFFFFF" height="869.3438" style="stroke:#181818;stroke-width:1.0;" width="10" x="314.5" y="871.9141"/><rect fill="#FFFFFF" height="287.4219" style="stroke:#181818;stroke-width:1.0;" width="10" x="615.5" y="145.3125"/><rect fill="#FFFFFF" height="287.4219" style="stroke:#181818;stroke-width:1.0;" width="10" x="615.5" y="523.7891"/><rect fill="#FFFFFF" height="829.9922" style="stroke:#181818;stroke-width:1.0;" width="10" x="615.5" y="902.2656"/><rect fill="#FFFFFF" height="226.7188" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="175.6641"/><rect fill="#FFFFFF" height="226.7188" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="554.1406"/><rect fill="#FFFFFF" height="91.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="932.6172"/><rect fill="#FFFFFF" height="91.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="1054.0234"/><rect fill="#FFFFFF" height="194.3672" style="stroke:#181818;stroke-width:1.0;" width="10" x="932.5" y="1477.1875"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1113" y="206.0156"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1113" y="1416.8359"/><rect fill="#FFFFFF" height="72.9609" style="stroke:#181818;stroke-width:1.0;" width="10" x="1257" y="292.0703"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1257" y="1356.4844"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="584.4922"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="962.9688"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="1084.375"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="1296.1328"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1571" y="1507.5391"/><rect fill="#FFFFFF" height="72.9609" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="670.5469"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="1175.4297"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="1235.7813"/><rect fill="#FFFFFF" height="72.9609" style="stroke:#181818;stroke-width:1.0;" width="10" x="1700.5" y="1568.2422"/><polygon fill="#181818" points="302.5,110.9609,312.5,114.9609,302.5,118.9609,306.5,114.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="308.5" y1="114.9609" y2="114.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="82.5" y="110.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="93.5" y="110.1045">"Give Order to AGV"</text><polygon fill="#181818" points="603.5,141.3125,613.5,145.3125,603.5,149.3125,607.5,145.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="324.5" x2="609.5" y1="145.3125" y2="145.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="331.5" y="140.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="342.5" y="140.4561">allToBePreparedOrders()</text><polygon fill="#181818" points="920.5,171.6641,930.5,175.6641,920.5,179.6641,924.5,175.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="926.5" y1="175.6641" y2="175.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="632.5" y="170.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="643.5" y="170.8076">allToBePreparedOrders()</text><polygon fill="#181818" points="1101,202.0156,1111,206.0156,1101,210.0156,1105,206.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1107" y1="206.0156" y2="206.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="949.5" y="201.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="960.5" y="201.1592">findToBePrepared()</text><polygon fill="#181818" points="953.5,232.3672,943.5,236.3672,953.5,240.3672,949.5,236.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1117" y1="236.3672" y2="236.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="959.5" y="231.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="970.5" y="231.5107">Iterable&lt;ProductOrder&gt;</text><path d="M841,251.3672 L914,251.3672 L914,259.7188 L904,269.7188 L841,269.7188 L841,251.3672 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="121.6641" style="stroke:#000000;stroke-width:1.5;" width="637" x="841" y="251.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="856" y="265.8623">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="128" x="929" y="264.7861">[foreach ProductOrder]</text><polygon fill="#181818" points="1245,288.0703,1255,292.0703,1245,296.0703,1249,292.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1251" y1="292.0703" y2="292.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="949.5" y="287.2139">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="960.5" y="287.2139">toOrderDTO()</text><polygon fill="#181818" points="1326,318.4219,1336,322.4219,1326,326.4219,1330,322.4219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1267" x2="1332" y1="322.4219" y2="322.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1274" y="317.5654">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1285" y="317.5654">create</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="1338" y="300.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1345" y="321.6035">ProductOrderDTO</text><polygon fill="#181818" points="953.5,361.0313,943.5,365.0313,953.5,369.0313,949.5,365.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1261" y1="365.0313" y2="365.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="959.5" y="360.1748">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="970.5" y="360.1748">ProductOrderDTO</text><polygon fill="#181818" points="636.5,398.3828,626.5,402.3828,636.5,406.3828,632.5,402.3828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="630.5" x2="936.5" y1="402.3828" y2="402.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="642.5" y="397.5264">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="653.5" y="397.5264">Iterable&lt;ProductOrderDTO&gt;</text><polygon fill="#181818" points="335.5,428.7344,325.5,432.7344,335.5,436.7344,331.5,432.7344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="329.5" x2="619.5" y1="432.7344" y2="432.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="341.5" y="427.8779">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="359.5" y="427.8779">Iterable&lt;ProductOrderDTO&gt;</text><polygon fill="#181818" points="86.5,459.0859,76.5,463.0859,86.5,467.0859,82.5,463.0859" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="80.5" x2="318.5" y1="463.0859" y2="463.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="92.5" y="458.2295">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="110.5" y="458.2295">Shows List of Orders</text><polygon fill="#181818" points="302.5,489.4375,312.5,493.4375,302.5,497.4375,306.5,493.4375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="308.5" y1="493.4375" y2="493.4375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="82.5" y="488.5811">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="100.5" y="488.5811">Selects 1 Order</text><polygon fill="#181818" points="603.5,519.7891,613.5,523.7891,603.5,527.7891,607.5,523.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="324.5" x2="609.5" y1="523.7891" y2="523.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="331.5" y="518.9326">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="349.5" y="518.9326">allAvailableAGVs()</text><polygon fill="#181818" points="920.5,550.1406,930.5,554.1406,920.5,558.1406,924.5,554.1406" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="926.5" y1="554.1406" y2="554.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="549.2842">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="650.5" y="549.2842">allAvailableAGVs()</text><polygon fill="#181818" points="1559,580.4922,1569,584.4922,1559,588.4922,1563,584.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1565" y1="584.4922" y2="584.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="949.5" y="579.6357">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="967.5" y="579.6357">findAvailable()</text><polygon fill="#181818" points="953.5,610.8438,943.5,614.8438,953.5,618.8438,949.5,614.8438" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1575" y1="614.8438" y2="614.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="959.5" y="609.9873">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="977.5" y="609.9873">Iterable&lt;AGV&gt;</text><path d="M841,629.8438 L914,629.8438 L914,638.1953 L904,648.1953 L841,648.1953 L841,629.8438 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="121.6641" style="stroke:#000000;stroke-width:1.5;" width="1030.5" x="841" y="629.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="856" y="644.3389">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="77" x="929" y="643.2627">[foreach AGV]</text><polygon fill="#181818" points="1688.5,666.5469,1698.5,670.5469,1688.5,674.5469,1692.5,670.5469" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1694.5" y1="670.5469" y2="670.5469"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="949.5" y="665.6904">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="967.5" y="665.6904">toAGVDTO()</text><polygon fill="#181818" points="1776.5,696.8984,1786.5,700.8984,1776.5,704.8984,1780.5,700.8984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1710.5" x2="1782.5" y1="700.8984" y2="700.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1717.5" y="696.042">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1735.5" y="696.042">create</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1788.5" y="678.5469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1795.5" y="700.0801">AGVDTO</text><polygon fill="#181818" points="953.5,739.5078,943.5,743.5078,953.5,747.5078,949.5,743.5078" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1704.5" y1="743.5078" y2="743.5078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="959.5" y="738.6514">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="977.5" y="738.6514">AGVDTO</text><polygon fill="#181818" points="636.5,776.8594,626.5,780.8594,636.5,784.8594,632.5,780.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="630.5" x2="936.5" y1="780.8594" y2="780.8594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="642.5" y="776.0029">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="660.5" y="776.0029">Iterable&lt;AGVDTO&gt;</text><polygon fill="#181818" points="335.5,807.2109,325.5,811.2109,335.5,815.2109,331.5,811.2109" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="329.5" x2="619.5" y1="811.2109" y2="811.2109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="341.5" y="806.3545">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="359.5" y="806.3545">Iterable&lt;AGVDTO&gt;</text><polygon fill="#181818" points="86.5,837.5625,76.5,841.5625,86.5,845.5625,82.5,841.5625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="80.5" x2="318.5" y1="841.5625" y2="841.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="92.5" y="836.7061">22</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="110.5" y="836.7061">Shows List of AGVs</text><polygon fill="#181818" points="302.5,867.9141,312.5,871.9141,302.5,875.9141,306.5,871.9141" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="75.5" x2="308.5" y1="871.9141" y2="871.9141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="82.5" y="867.0576">23</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="100.5" y="867.0576">Selects 1 AGV</text><polygon fill="#181818" points="603.5,898.2656,613.5,902.2656,603.5,906.2656,607.5,902.2656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="324.5" x2="609.5" y1="902.2656" y2="902.2656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="331.5" y="897.4092">24</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="349.5" y="897.4092">giveOrderToAGV(agvDTO,productOrderDTO)</text><polygon fill="#181818" points="920.5,928.6172,930.5,932.6172,920.5,936.6172,924.5,932.6172" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="926.5" y1="932.6172" y2="932.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="927.7607">25</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="650.5" y="927.7607">grabRealValueAGV(agvDTO)</text><polygon fill="#181818" points="1559,958.9688,1569,962.9688,1559,966.9688,1563,962.9688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1565" y1="962.9688" y2="962.9688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="949.5" y="958.1123">26</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="967.5" y="958.1123">findById(agvID)</text><polygon fill="#181818" points="953.5,989.3203,943.5,993.3203,953.5,997.3203,949.5,993.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1575" y1="993.3203" y2="993.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="959.5" y="988.4639">27</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="977.5" y="988.4639">Iterable&lt;AGV&gt;</text><polygon fill="#181818" points="636.5,1019.6719,626.5,1023.6719,636.5,1027.6719,632.5,1023.6719" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="630.5" x2="936.5" y1="1023.6719" y2="1023.6719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="642.5" y="1018.8154">28</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="660.5" y="1018.8154">Iterable&lt;AGV&gt;</text><polygon fill="#181818" points="920.5,1050.0234,930.5,1054.0234,920.5,1058.0234,924.5,1054.0234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="926.5" y1="1054.0234" y2="1054.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1049.167">29</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="270" x="650.5" y="1049.167">grabRealValueProductOrder(productOrderDTO)</text><polygon fill="#181818" points="1559,1080.375,1569,1084.375,1559,1088.375,1563,1084.375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1565" y1="1084.375" y2="1084.375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="949.5" y="1079.5186">30</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="967.5" y="1079.5186">findById(OrderId)</text><polygon fill="#181818" points="953.5,1110.7266,943.5,1114.7266,953.5,1118.7266,949.5,1114.7266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1575" y1="1114.7266" y2="1114.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="959.5" y="1109.8701">31</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="977.5" y="1109.8701">Iterable&lt;ProductOrder&gt;</text><polygon fill="#181818" points="636.5,1141.0781,626.5,1145.0781,636.5,1149.0781,632.5,1145.0781" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="630.5" x2="936.5" y1="1145.0781" y2="1145.0781"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="642.5" y="1140.2217">32</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="660.5" y="1140.2217">Iterable&lt;ProductOrder&gt;</text><polygon fill="#181818" points="1688.5,1171.4297,1698.5,1175.4297,1688.5,1179.4297,1692.5,1175.4297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="1694.5" y1="1175.4297" y2="1175.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1170.5732">33</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251" x="650.5" y="1170.5732">changeTaskTo("Preparing Order :"+OrderId)</text><polygon fill="#181818" points="1688.5,1231.7813,1698.5,1235.7813,1688.5,1239.7813,1692.5,1235.7813" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="1694.5" y1="1235.7813" y2="1235.7813"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1230.9248">34</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="650.5" y="1230.9248">changeStatusTo(status)</text><polygon fill="#181818" points="1559,1292.1328,1569,1296.1328,1559,1300.1328,1563,1296.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="1565" y1="1296.1328" y2="1296.1328"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1291.2764">35</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="650.5" y="1291.2764">save(agv)</text><polygon fill="#181818" points="1245,1352.4844,1255,1356.4844,1245,1360.4844,1249,1356.4844" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="1251" y1="1356.4844" y2="1356.4844"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1351.6279">36</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="650.5" y="1351.6279">changeStatusTo(status)</text><polygon fill="#181818" points="1101,1412.8359,1111,1416.8359,1101,1420.8359,1105,1416.8359" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="1107" y1="1416.8359" y2="1416.8359"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1411.9795">37</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="650.5" y="1411.9795">save(productOrder)</text><polygon fill="#181818" points="920.5,1473.1875,930.5,1477.1875,920.5,1481.1875,924.5,1477.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="625.5" x2="926.5" y1="1477.1875" y2="1477.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="632.5" y="1472.3311">38</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="650.5" y="1472.3311">showAGV(agvID)</text><polygon fill="#181818" points="1559,1503.5391,1569,1507.5391,1559,1511.5391,1563,1507.5391" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1565" y1="1507.5391" y2="1507.5391"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="949.5" y="1502.6826">39</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="967.5" y="1502.6826">findById(agvID)</text><polygon fill="#181818" points="953.5,1533.8906,943.5,1537.8906,953.5,1541.8906,949.5,1537.8906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1575" y1="1537.8906" y2="1537.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="959.5" y="1533.0342">40</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="977.5" y="1533.0342">Iterable&lt;AGV&gt;</text><polygon fill="#181818" points="1688.5,1564.2422,1698.5,1568.2422,1688.5,1572.2422,1692.5,1568.2422" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="942.5" x2="1694.5" y1="1568.2422" y2="1568.2422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="949.5" y="1563.3857">41</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="967.5" y="1563.3857">toAGVDTO()</text><polygon fill="#181818" points="1776.5,1594.5938,1786.5,1598.5938,1776.5,1602.5938,1780.5,1598.5938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1710.5" x2="1782.5" y1="1598.5938" y2="1598.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1717.5" y="1593.7373">42</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1735.5" y="1593.7373">create</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1788.5" y="1576.2422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1795.5" y="1597.7754">AGVDTO</text><polygon fill="#181818" points="953.5,1637.2031,943.5,1641.2031,953.5,1645.2031,949.5,1641.2031" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="947.5" x2="1704.5" y1="1641.2031" y2="1641.2031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="959.5" y="1636.3467">43</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="977.5" y="1636.3467">AGVDTO</text><polygon fill="#181818" points="636.5,1667.5547,626.5,1671.5547,636.5,1675.5547,632.5,1671.5547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="630.5" x2="936.5" y1="1671.5547" y2="1671.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="642.5" y="1666.6982">44</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="660.5" y="1666.6982">AGVDTO</text><polygon fill="#181818" points="335.5,1697.9063,325.5,1701.9063,335.5,1705.9063,331.5,1701.9063" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="329.5" x2="614.5" y1="1701.9063" y2="1701.9063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="341.5" y="1697.0498">45</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="359.5" y="1697.0498">AGVDTO</text><polygon fill="#181818" points="86.5,1728.2578,76.5,1732.2578,86.5,1736.2578,82.5,1732.2578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="80.5" x2="313.5" y1="1732.2578" y2="1732.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="92.5" y="1727.4014">46</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="110.5" y="1727.4014">Show that AGV is preparing Order</text><!--MD5=[200d82753b4ad09e5731e7e7c62fd5fd]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor WarehouseEmployee
+
+participant GiveOrderToAGVUI as UI
+
+participant GiveOrderToAGVController as C
+
+participant GiveOrderToAGVService as S
+
+participant ProductOrderRepository as OR
+
+participant ProductOrder as PO
+
+participant ProductOrderDTO as DTO1
+
+participant AGVConfigurationRepository as CR
+
+participant AGV
+
+participant AGVDTO as DTO2
+
+
+
+WarehouseEmployee -> UI: "Give Order to AGV"
+activate UI
+
+UI -> C :allToBePreparedOrders()
+
+activate C
+
+C -> S:allToBePreparedOrders()
+
+activate S
+
+S -> OR :findToBePrepared()
+
+activate OR
+
+OR - -> S:Iterable<ProductOrder>
+deactivate OR
+
+
+loop foreach ProductOrder
+
+S -> PO: toOrderDTO()
+activate PO
+PO -> DTO1**: create
+PO - -> S: ProductOrderDTO
+deactivate PO
+end
+S - -> C : Iterable<ProductOrderDTO>
+deactivate S
+C - -> UI: Iterable<ProductOrderDTO>
+deactivate C
+UI - -> WarehouseEmployee: Shows List of Orders
+deactivate UI
+
+
+WarehouseEmployee -> UI: Selects 1 Order
+activate UI
+
+UI -> C :allAvailableAGVs()
+
+activate C
+
+C -> S: allAvailableAGVs()
+
+activate S
+
+S -> CR :findAvailable()
+
+activate CR
+
+CR - -> S:Iterable<AGV>
+deactivate CR
+
+
+loop foreach AGV
+
+S -> AGV: toAGVDTO()
+activate AGV
+AGV -> DTO2**: create
+AGV - -> S: AGVDTO
+deactivate AGV
+end
+S - -> C : Iterable<AGVDTO>
+deactivate S
+C - -> UI: Iterable<AGVDTO>
+deactivate C
+
+
+
+
+WarehouseEmployee <- - UI: Shows List of AGVs
+deactivate
+WarehouseEmployee -> UI: Selects 1 AGV
+activate UI
+
+UI -> C :giveOrderToAGV(agvDTO,productOrderDTO)
+activate C
+
+C -> S:grabRealValueAGV(agvDTO)
+activate S
+
+S->CR:findById(agvID)
+activate CR
+CR- ->S:Iterable<AGV>
+deactivate CR
+
+S - -> C: Iterable<AGV>
+
+
+
+deactivate S
+
+C -> S:grabRealValueProductOrder(productOrderDTO)
+activate S
+
+S->CR:findById(OrderId)
+activate CR
+CR- ->S:Iterable<ProductOrder>
+deactivate CR
+
+S - -> C: Iterable<ProductOrder>
+
+deactivate S
+
+'C -> S:changeAGVTaskStatus(agv)
+'activate S
+C->AGV:changeTaskTo("Preparing Order :"+OrderId)
+activate AGV
+deactivate AGV
+C->AGV:changeStatusTo(status)
+activate AGV
+deactivate AGV
+C->CR :save(agv)
+activate CR
+deactivate CR
+'deactivate S
+
+'C -> S:changeProductOrderStatus(productOrder)
+'activate S
+C-> PO:changeStatusTo(status)
+
+activate PO
+deactivate PO
+
+C->OR :save(productOrder)
+activate OR
+deactivate OR
+'deactivate C
+
+C->S:showAGV(agvID)
+activate S
+
+S->CR:findById(agvID)
+activate CR
+CR- ->S:Iterable<AGV>
+deactivate CR
+
+S -> AGV: toAGVDTO()
+activate AGV
+AGV -> DTO2**: create
+AGV - -> S: AGVDTO
+deactivate AGV
+
+S- ->C :AGVDTO
+deactivate S
+
+C- ->UI:AGVDTO
+
+'C- ->UI:AGVDTO
+'deactivate S
+
+WarehouseEmployee <- - UI: Show that AGV is preparing Order
+deactivate
+@enduml
+
+@startuml
+
+autonumber
+actor WarehouseEmployee
+
+participant GiveOrderToAGVUI as UI
+
+participant GiveOrderToAGVController as C
+
+participant GiveOrderToAGVService as S
+
+participant ProductOrderRepository as OR
+
+participant ProductOrder as PO
+
+participant ProductOrderDTO as DTO1
+
+participant AGVConfigurationRepository as CR
+
+participant AGV
+
+participant AGVDTO as DTO2
+
+
+
+WarehouseEmployee -> UI: "Give Order to AGV"
+activate UI
+
+UI -> C :allToBePreparedOrders()
+
+activate C
+
+C -> S:allToBePreparedOrders()
+
+activate S
+
+S -> OR :findToBePrepared()
+
+activate OR
+
+OR - -> S:Iterable<ProductOrder>
+deactivate OR
+
+
+loop foreach ProductOrder
+
+S -> PO: toOrderDTO()
+activate PO
+PO -> DTO1**: create
+PO - -> S: ProductOrderDTO
+deactivate PO
+end
+S - -> C : Iterable<ProductOrderDTO>
+deactivate S
+C - -> UI: Iterable<ProductOrderDTO>
+deactivate C
+UI - -> WarehouseEmployee: Shows List of Orders
+deactivate UI
+
+
+WarehouseEmployee -> UI: Selects 1 Order
+activate UI
+
+UI -> C :allAvailableAGVs()
+
+activate C
+
+C -> S: allAvailableAGVs()
+
+activate S
+
+S -> CR :findAvailable()
+
+activate CR
+
+CR - -> S:Iterable<AGV>
+deactivate CR
+
+
+loop foreach AGV
+
+S -> AGV: toAGVDTO()
+activate AGV
+AGV -> DTO2**: create
+AGV - -> S: AGVDTO
+deactivate AGV
+end
+S - -> C : Iterable<AGVDTO>
+deactivate S
+C - -> UI: Iterable<AGVDTO>
+deactivate C
+
+
+
+
+WarehouseEmployee <- - UI: Shows List of AGVs
+deactivate
+WarehouseEmployee -> UI: Selects 1 AGV
+activate UI
+
+UI -> C :giveOrderToAGV(agvDTO,productOrderDTO)
+activate C
+
+C -> S:grabRealValueAGV(agvDTO)
+activate S
+
+S->CR:findById(agvID)
+activate CR
+CR- ->S:Iterable<AGV>
+deactivate CR
+
+S - -> C: Iterable<AGV>
+
+
+
+deactivate S
+
+C -> S:grabRealValueProductOrder(productOrderDTO)
+activate S
+
+S->CR:findById(OrderId)
+activate CR
+CR- ->S:Iterable<ProductOrder>
+deactivate CR
+
+S - -> C: Iterable<ProductOrder>
+
+deactivate S
+
+C->AGV:changeTaskTo("Preparing Order :"+OrderId)
+activate AGV
+deactivate AGV
+C->AGV:changeStatusTo(status)
+activate AGV
+deactivate AGV
+C->CR :save(agv)
+activate CR
+deactivate CR
+
+C-> PO:changeStatusTo(status)
+
+activate PO
+deactivate PO
+
+C->OR :save(productOrder)
+activate OR
+deactivate OR
+
+C->S:showAGV(agvID)
+activate S
+
+S->CR:findById(agvID)
+activate CR
+CR- ->S:Iterable<AGV>
+deactivate CR
+
+S -> AGV: toAGVDTO()
+activate AGV
+AGV -> DTO2**: create
+AGV - -> S: AGVDTO
+deactivate AGV
+
+S- ->C :AGVDTO
+deactivate S
+
+C- ->UI:AGVDTO
+
+
+WarehouseEmployee <- - UI: Show that AGV is preparing Order
+deactivate
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

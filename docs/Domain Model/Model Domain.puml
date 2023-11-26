@@ -1,0 +1,237 @@
+@startuml
+
+hide methods
+'left to right direction'
+skinparam packageStyle rectangle
+'skinparam linetype polyline
+
+package "<<aggregate>> Employee" {
+
+}
+
+
+'Customer
+
+package "<<aggregate>> Customer" {
+   entity Customer <<root>> <<entity>>{
+        birthdate <<Value-Object>> <<nullable>>
+        gender <<Value-Object>> <<nullable>>
+    }
+    class Name <<(V,#B8255F) value object>> {}
+    class "ID" as idCustomer <<(V,#B8255F) value object>> {}
+    class Email <<(V,#B8255F) value object>> {}
+    class VAT <<(V,#B8255F) value object>> {}
+    class PhoneNumber <<(V,#B8255F) value object>> {}
+
+}
+package "<<aggregate>> ShoppingCart" {
+ entity ShoppingCart <<entity>> {}
+ class ProductQuantity <<(V,#B8255F) value object>> {}
+ class Price <<(V,#B8255F) value object>> {
+            PriceWithTaxes
+            PriceWithoutTaxes
+        }
+ class TotalPrice <<(V,#B8255F) value object>> {}
+}
+
+'Order and customer
+'Order
+package "<<aggregate>> Order" {
+
+    entity  Order <<root>> <<entity>>{
+        -date <<Value-Object>>
+        -paymentMethod
+        -shippingMethod
+        -communicationMethod
+        -totalWeight
+        -TotalVolume
+
+    }
+
+
+    class Item <<(V,#B8255F) value object>> {
+    - ProductQuantity;
+    }
+    class "ID" as idOrder <<(V,#B8255F) value object>> {}
+    class TotalPrice <<(V,#B8255F) value object>> {}
+    class State <<(V,#B8255F) value object>> {}
+    class CustomerReference <<(V,#B8255F) value object>> {}
+
+}
+
+package "<<aggregate>> Employee"{
+
+    entity Employee <<root>> <<entity>>
+
+}
+
+class Address <<(V,#B8255F) value object>> {}
+
+'Product
+
+package "<<aggregate>> Product"{
+
+    entity Product <<entity>> <<root>> {}
+    class "ID" as idProduct <<(V,#B8255F) value object>> {}
+    class Photo <<(V,#B8255F) value object>> {}
+    class Barcode <<(V,#B8255F) value object>> {}
+    class Reference <<(V,#B8255F) value object>> {}
+    class BrandName <<(V,#B8255F) value object>> {}
+    class ShortDescription <<(V,#B8255F) value object>> {}
+    class ExtendedDescription <<(V,#B8255F) value object>> {}
+    class TechnicalDescription <<(V,#B8255F) value object>> {}
+    class Size <<(V,#B8255F) value object>> {}
+    class ProductionCode <<(V,#B8255F) value object>> {}
+    class Price <<(V,#B8255F) value object>> {}
+    class Weight <<(V,#B8255F) value object>> {}
+    class Volume <<(V,#B8255F) value object>> {}
+
+}
+
+'ProductCategory
+
+package "<<aggregate>> ProductCategory"{
+    entity ProductCategory <<entity>> <<root>> {}
+    class ProductionCode <<(V,#B8255F) value object>> {}
+    class Code <<(V,#B8255F) value object>> {}
+    class Description <<(V,#B8255F) value object>> {}
+    class SuperCategory <<(V,#B8255F) value object>> {}
+}
+
+package "<<aggregate>> Surveys"{
+    entity Survey <<entity>> <<root>> {}
+    entity Section <<entity>>{}
+    entity Question <<entity>>{}
+    entity Answer <<entity>>{}
+    entity Options <<entity>>{}
+    class Type <<(V,#B8255F) value object>> {}
+}
+
+package "<<aggregate>> AGV"{
+    entity AGV <<entity>> <<root>> {}
+    entity Task <<entity>> {}
+    class Route <<(V,#B8255F) value object>>{}
+    class "ID" as idAGV <<(V,#B8255F) value object>> {}
+    class shortDescription <<(V,#B8255F) value object>> {}
+    class Model <<(V,#B8255F) value object>> {}
+    class MaxWeight <<(V,#B8255F) value object>> {}
+    class MaxVolume <<(V,#B8255F) value object>> {}
+    class Status <<(V,#B8255F) value object>> {}
+    class Autonomy <<(V,#B8255F) value object>> {}
+}
+
+package "<<aggregate>> Warehouse"{
+    entity Warehouse <<entity>> <<root>> {}
+    entity Plant <<entity>> {}
+    entity Row <<(V,#B8255F) value object>> {}
+    entity Shelf <<(V,#B8255F) value object>> {}
+    entity Aisle <<(V,#B8255F) value object>> {}
+    entity AGVDoc <<entity>> {}
+    class Begin <<(V,#B8255F) value object>> {}
+    class End <<(V,#B8255F) value object>> {}
+    class Depth <<(V,#B8255F) value object>> {}
+    class Accessibility <<(V,#B8255F) value object>> {}
+    class StorageArea <<(V,#B8255F) value object>> {}
+    class Bin <<(V,#B8255F) value object>> {}
+}
+
+
+Task "1"-->"1" Route : Executes
+AGV "1"-->"1" Autonomy
+AGV "1"-->"1" idAGV : Is represented by
+AGV "1"-->"1" shortDescription : Is characterized by
+AGV "1"-->"1" Model : Is represented by
+AGV "1"-->"1" MaxWeight
+AGV "1"-->"1" MaxVolume
+AGV "1"-->"1" Status
+AGV "1"-->"1" Task
+Task "1"-->"1..*" Product : can have
+
+Warehouse "1"--> "1..*" StorageArea
+Warehouse "1"--> "1" Plant : Provides
+Plant "1"--> "1" AGVDoc : Informs
+
+Aisle "1"-->"1..*" Row
+Aisle "1"--->"1..*" Begin
+Aisle "1"-->"1..*" Depth
+Aisle "1"-->"1..*" Accessibility
+Aisle "1"--->"1..*" End
+Row "1"-->"1" Begin
+Row "1"-->"1" End
+Row "1"-->"1..*" Shelf
+Shelf "1"-->"1..*" Bin
+
+AGVDoc "1"--->"1" Begin
+AGVDoc "1"--->"1" End
+AGVDoc "1"-->"1" Depth
+AGVDoc "1"-->"1" Accessibility
+
+StorageArea "1"-->"1..*" Aisle
+
+
+
+Warehouse "1"--> "1..*" AGV : Is in possession of
+AGV "1"--> "1" AGVDoc
+
+StorageArea "1"--> "1"Product : Allocates
+
+Survey "1"-->"1..*" Section : Is divided by
+Section "1"-->"1..*" Question
+Question "1"-->"1..*" Options
+Options "1..*"-->"1" Answer
+Question "1" --> "1" Type
+
+Customer "1"-->"1..*" Survey : Fills out
+
+Product "1"-->"1" idProduct : Is represented by
+Product "1"-->"1..*" Photo
+Product "1"-->"1" Barcode
+Product "1"-->"1" Reference
+Product "1"-->"1" BrandName
+Product "1"-->"1"  ShortDescription
+Product "1"-->"1" ExtendedDescription
+Product "1"-->"1" TechnicalDescription
+Product "1"-->"1" Size
+Product "1"-->"1" Weight
+Product "1"-->"0..1" ProductionCode
+Product "1"-->"1" Volume
+Product "1"-->"1" Price
+Product "1"-->"1" Product
+Product "1"-->"1" ProductQuantity
+ProductCategory --> ProductCategory
+ProductCategory "1"-->"0..*" Product
+ProductCategory "1"-->"1" Description
+ProductCategory "1"-->"1" Code
+ProductCategory "1"-->"0..1" SuperCategory
+
+Order "1"-->"1" idOrder
+Order "1"-->"1" Address: Billing Address
+Order "1"-->"1" Address: Delivering Address
+Order "1"-->"1" Price
+Order "1"-->"1" TotalPrice
+Order "1"-->"1" CustomerReference
+Order "1"-->"1" State
+Order "1"-->"1..*" Item
+Item "1"-->"1" Product: Assossiated with
+
+Customer "1"-->"1..*" PhoneNumber
+Customer "1"-->"1" idCustomer
+Customer "1"-->"1..*" Email
+Customer "1"-->"1" VAT
+Customer "1"-->"1..*" Address : Billing
+Customer "1"-->"1..*" Address : Delivering
+Customer "1"-->"1" Name
+
+Employee "1"-->"1..*" Order : Can do
+
+ShoppingCart  "1"-->"1" idCustomer
+ShoppingCart  "1"-->"1" idProduct
+ShoppingCart  "1"-->"1" Photo
+ShoppingCart  "1"-->"1" Reference
+ShoppingCart  "1"-->"1..+" ProductQuantity
+ShoppingCart  "1"-->"1" Price
+ShoppingCart  "1"-->"1" TotalPrice
+
+
+
+@enduml

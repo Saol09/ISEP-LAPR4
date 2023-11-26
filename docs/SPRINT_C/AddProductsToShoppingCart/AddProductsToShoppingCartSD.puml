@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+hide footbox
+
+actor "Customer" as ator
+participant ": CreateShoppingCartUI" as cartUI
+participant ": NewShoppingCartController" as cartCtlr
+participant ProductCatalogUI as ProductCatalogUI
+database ": PersistanceContext" as persis <<repository>>
+database ": RepositoryFactory" as factory <<factory>>
+database ProductRepository as productRepository <<repository>>
+database ": CostumerRepository" as costumerRepository <<repository>>
+database ": ShoppingCartRepository" as cartRepo <<repository>>
+
+activate ator
+ator -> cartUI: starts to add products to the shopping cart
+activate cartUI
+cartUI --> ator: asks if the costumer wants to check product catalog
+deactivate cartUI
+ator -> cartUI: chooses if he wants to see or not the product catalog
+activate cartUI
+
+cartUI -> cartCtlr: findCostumerBy(email)
+activate cartCtlr
+cartCtlr -> costumerRepository : findCostumerByEmail(email)
+deactivate cartCtlr
+activate costumerRepository
+
+loop While he wants to add products
+    alt In case he wants to see catalog
+
+        cartUI -> ProductCatalogUI : SearchProductsUI::show()
+         deactivate costumerRepository
+        activate ProductCatalogUI
+        ProductCatalogUI -> ProductCatalogUI: doShow()
+        activate ProductCatalogUI
+        deactivate ProductCatalogUI
+        deactivate ProductCatalogUI
+        cartUI -->ator: Shows the products and requests product id.
+        deactivate cartUI
+    end alt
+    ator -> cartUI: Inserts product id
+    activate cartUI
+    cartUI -> cartCtlr: checkProductId(productID)
+    activate cartCtlr
+    cartCtlr -> productRepository: checkProductId(productID)
+    activate productRepository
+    deactivate productRepository
+    deactivate cartCtlr
+    cartUI --> ator: Requests quantity
+    deactivate cartUI
+    ator -> cartUI: Inserts quantity
+    activate cartUI
+
+
+
+cartUI -> cartCtlr : createShoppingCart(custumer,items)
+activate cartCtlr
+cartCtlr -> persis : repoShoppingCart = repositoryFactory
+activate persis
+persis -> factory : shoppingCartRepository()
+activate factory
+cartCtlr -> cartRepo : save(shoppingCart)
+activate cartRepo
+
+    alt In case the customer wants to add products that have been already added to the shopping cart
+        cartUI -> cartCtlr: addProducts(customer,items
+        cartCtlr -> persis : repoShoppingCart = repositoryFactory
+        persis -> factory : shoppingCartRepository()
+        deactivate persis
+        deactivate factory
+        cartCtlr -> cartRepo : save(shoppingCart)
+        deactivate cartRepo
+    end alt
+
+cartUI -> cartCtlr : showAll()
+deactivate cartCtlr
+
+end
+cartUI --> ator : Shows to the customer the shopping cart
+deactivate cartUI
+
+@enduml

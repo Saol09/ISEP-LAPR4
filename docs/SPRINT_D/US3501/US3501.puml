@@ -1,0 +1,132 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Customer
+
+participant QuestionnairesUI as UI
+
+participant QuestionnairesController as C
+
+participant QuestionnairesService as QS
+
+participant QuestionnairesRepository as QR
+
+participant QuestionnaireString as Q
+'?????????????
+
+
+participant Answer as A
+
+participant AnswerRepository as AR
+
+
+
+
+Customer -> UI: Show list questionnaires
+activate UI
+
+UI -> C : allQuestionnaires()
+activate C
+
+C ->QS:allQuestionnaires()
+activate QS
+
+QS ->QR:findQuestionnaires()
+activate QR
+QS <-- QR:Iterable<Questionnaires>
+deactivate QR
+C <-- QS:Iterable<Questionnaires>
+deactivate QS
+C -> C: doList(Iterable<Questionnaires>)
+C -->UI: List<String>
+deactivate
+
+
+
+
+UI --> Customer: Show list and ask to view questionnaire or exit
+deactivate
+Customer -> UI: Selects 1 of the questionnaire
+
+activate UI
+UI -> C : questionnaireWithID(ID)
+activate C
+
+C ->QS:questionnaireWithID(ID)
+activate QS
+
+QS ->QR:findQuestionnaireWithID(ID)
+activate QR
+QS <-- QR:Questionnaires
+deactivate QR
+C <-- QS:Questionnaires
+deactivate QS
+C->Q:getQuestString()
+activate Q
+C<--Q:String
+deactivate Q
+C-->UI:String
+deactivate C
+deactivate QS
+Customer <-- UI: Show entire questionnaire and asks if he/she wants to answer.
+deactivate UI
+
+Customer -> UI: answer
+activate UI
+UI -> C:organizeQuestioner(question)
+
+
+activate C
+UI <-- C:String[]
+deactivate C
+'aqui como é que é o activate e o desactivate
+loop for every question on the questionnaire
+    UI --> Customer: show question
+    deactivate
+    Customer -> UI: answer question
+    activate UI
+
+    UI->UI:validate
+
+    UI-->Customer:show question
+    note right
+    23=26
+    end note
+
+
+    deactivate
+
+
+end
+UI --> Customer: ask to submit questionnaire
+
+
+
+deactivate UI
+deactivate UI
+
+Customer -> UI:submit
+activate UI
+UI -> C:submitAnswers(answers,email)
+deactivate UI
+activate C
+C->CostumerRepository:findCostumerByEmail(email)
+activate CostumerRepository
+C<--CostumerRepository:Customer
+deactivate CostumerRepository
+loop for all answer
+C->A **: create
+C->QS: saveAnswer(answer)
+deactivate
+activate QS
+QS->AR:save(answer)
+activate AR
+deactivate AR
+deactivate QS
+end
+
+
+
+@enduml

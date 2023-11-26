@@ -1,0 +1,18 @@
+ID: 1
+bem vindo a estes joguito mawuco
+
+Section ID: 1
+Section Title: grupo 1
+um grupo sobre comida
+{optional}
+Section Repeat: 1
+
+Question ID: 1
+qual a sua comida preferida massa ou arroz?
+{mandatory}
+Extra Info: no info
+
+Answer ID: 1
+1. Massa
+
+Final Message: obrigado por participar

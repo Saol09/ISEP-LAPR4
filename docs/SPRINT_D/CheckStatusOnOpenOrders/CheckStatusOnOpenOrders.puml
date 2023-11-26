@@ -1,0 +1,46 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "Customer" as ator
+participant CheckStatusOpenOrdersUI as checkUI <<presentation>>
+participant CheckStatusOpenOrdersController as checkController <<application>>
+participant PersistenceContext as persistence <<persistence>>
+participant RepositoryFactory as factory <<factory>>
+database ProductOrderRepository as productOrderRepo <<repository>>
+database CostumerRepository as costumerRepo <<repository>>
+
+activate ator
+
+ator -> checkUI : asks to check his/her open orders
+
+activate checkUI
+
+checkUI -> checkController : findCostumerByEmail()
+
+activate checkController
+
+checkController -> costumerRepo : findCostumerByEmail()
+
+activate costumerRepo
+
+checkUI -> checkController : openOrdersByCustomer
+
+deactivate costumerRepo
+
+checkController -> productOrderRepo : findOpenOrdersByCostumer
+
+activate productOrderRepo
+
+checkUI -> ator : shows all open orders (that haven't been delivered yet)
+
+deactivate productOrderRepo
+
+deactivate checkController
+
+deactivate checkUI
+
+deactivate ator
+
+@enduml

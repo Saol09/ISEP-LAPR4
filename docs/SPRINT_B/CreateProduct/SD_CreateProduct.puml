@@ -1,0 +1,77 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "Sales Clerk" as ator
+participant ": CreateProductUI" as ui
+participant ": CreateProductController" as controller
+participant ": PersistanceContext" as persistance <<persistance>>
+participant ": RepositoryFactory" as factory <<factory>>
+participant "productBuilder : ProductBuilder" as builder
+participant "repoProduct : RepoProduct" as productRepo <<persistencia>>
+
+activate ator
+
+ator -> ui: Create new product for sale
+activate ui
+
+ui --> ator: Ask for data(internalCode, photos, barcode, reference, brandName, shortDescription, extendedDescription, technicalDescription, price, productionCode, productsCategory)
+deactivate ui
+
+alt without optional attributes
+
+ator -> ui: Insert data
+activate ui
+
+
+ui -> controller: createProduct(internalCode, photos, barcode, reference, brandName, shortDescription, extendedDescription, technicalDescription, price, productsCategory)
+
+activate controller
+
+controller -> controller : productBuilder = newProductBuilder()
+
+controller -> builder: product = build()
+
+activate builder
+
+builder -> "product : Product" **: create(internalCode, photos, barcode, reference, brandName, shortDescription, extendedDescription, technicalDescription, price, productsCategory)
+deactivate builder
+
+else with optional attributes
+
+ator -> ui: Insert data
+
+ui -> controller: createProduct(internalCode, photos, barcode, reference, brandName, shortDescription, extendedDescription, technicalDescription, price, productionCode, productsCategory)
+activate controller
+
+controller -> controller : productBuilder = newProductBuilder()
+
+controller -> builder: product = build()
+
+activate builder
+
+builder -> "product : Product" **: create(internalCode, photos, barcode, reference, brandName, shortDescription, extendedDescription, technicalDescription, price, productionCode, productsCategory)
+deactivate builder
+
+end
+
+controller -> persistance: repoProduct = repositoryFactory
+activate persistance
+
+persistance -> factory: productRepository()
+activate factory
+deactivate factory
+deactivate persistance
+
+
+
+controller -> productRepo : save(product)
+activate productRepo
+deactivate productRepo
+deactivate controller
+
+ui --> ator: Product created with success
+deactivate ui
+
+@enduml

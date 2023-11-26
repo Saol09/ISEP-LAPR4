@@ -1,0 +1,55 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "Sales Clerk" as ator
+participant ": RegisterCostumerUi" as ui
+participant ": RegisterCostumerController" as controller
+participant ": PersistenceContext" as persistence <<persistence>>
+participant ": RepositoryFactory" as factory <<factory>>
+participant ": CostumerBuilder" as builder
+participant ": CostumerRepository" as repository <<repository>>
+
+activate ator
+ator -> ui: Register a new costumer
+activate ui
+
+ui --> ator: Asks for data
+deactivate ui
+
+ator -> ui: Inserts data
+activate ui
+
+ui --> ator: Asks for confirmation
+deactivate ui
+
+ator -> ui: Confirms
+activate ui
+
+ui -> controller: registerCostumer(name, phoneNumber, vat, email, address, gender, birthdate)
+activate controller
+controller -> controller: costumerBuilder = newCostumerBuilder()
+controller -> builder: costumer = build()
+
+activate builder
+builder -> "costumer : Costumer" **: create(name, phoneNumber, vat, email, address, gender, birthdate)
+deactivate builder
+
+
+controller -> persistence: repositories()
+activate persistence
+persistence -> factory: create
+activate factory
+factory -> repository: create
+activate repository
+factory -> repository: save(costumer)
+deactivate repository
+deactivate factory
+deactivate persistence
+deactivate controller
+ui --> ator: Informs about the success
+deactivate ui
+deactivate ator
+
+@enduml

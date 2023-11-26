@@ -1,0 +1,52 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "Sales Manager" as actor
+participant ": StatisticalReportUI" as ui
+participant ": StatisticalReportController" as ctrl
+participant ": QuestionnaireInfoController" as ctrlQ
+participant ": QuestionnaireServices" as services
+participant ": PersistenceContext" as persistence <<persistence>>
+participant ": RepositoryFactory" as factory <<factory>>
+participant "repoStatisticalReport : RepoStatisticalReport" as repo <<persistence>>
+participant "repoAnswers : RepoAnswers" as repoA <<persistence>>
+
+actor -> ui: Check Statistical Report for Questionnaire ID
+activate ui
+activate actor
+ui -> ctrl: Checks if there are any Questionnaire with the given ID
+activate ctrl
+activate persistence
+ctrl -> persistence: repositories()
+deactivate persistence
+activate factory
+persistence -> factory: create()
+deactivate factory
+
+ctrl -> repoA: Asks All the Answers to the Questionnaire
+repoA -> ctrl: Gives All the Answers to the Questionnaire
+ctrl -> ctrl: createsInfo(Questionnaire ID)
+ctrl -> services: gets all answers
+services -> ctrl: gives all answers
+ctrl -> ctrlQ: asks for answers and questions from the questionnaire ID
+ctrlQ -> ctrl: gives  answers and questions from the questionnaire ID
+ctrl -> ctrl: createsReport(Questionnaire ID)
+ctrl -> ctrlQ: asks for answers to each question
+ctrlQ -> ctrl: gives answers to each question
+ctrl -> ui: gives the report
+
+activate repo
+ctrl -> repo : save(statisticalReport)
+
+deactivate repo
+
+deactivate ctrl
+
+
+
+ui -> actor: Shows Statistical Report
+ui --> actor: Statistical Report was a success
+deactivate ui
+@enduml

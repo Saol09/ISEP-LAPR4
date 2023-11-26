@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant AGV_Manager <<server>>
+Activate AGV_DigitalTwin
+AGV_DigitalTwin -> AGV_Manager: start
+deactivate AGV_DigitalTwin
+activate AGV_Manager
+AGV_Manager -> AGV_Manager: importSSL()
+
+
+loop true
+
+participant AGVDigitalTwin <<Client>>
+activate AGVDigitalTwin
+AGVDigitalTwin -> AGV_DigitalTwin: connect()
+activate AGV_DigitalTwin
+AGV_DigitalTwin -> AGV_DigitalTwin: creat Client Socket
+AGV_DigitalTwin -> AGV_DigitalTwin: importClientSSL
+AGV_DigitalTwin -> AGV_Manager: Handshake protocol
+AGV_Manager -> AGV_Manager: accept
+participant Client <<Thread>>
+AGV_Manager -> Client: start
+activate Client
+
+end
+
+
+
+@enduml

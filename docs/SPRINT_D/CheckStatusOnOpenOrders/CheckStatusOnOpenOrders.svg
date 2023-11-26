@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="295px" preserveAspectRatio="none" style="width:1334px;height:295px;background:#FFFFFF;" version="1.1" viewBox="0 0 1334 295" width="1334px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="174.1094" style="stroke:#181818;stroke-width:1.0;" width="10" x="33.5" y="96.2188"/><rect fill="#FFFFFF" height="151.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="389.5" y="118.5703"/><rect fill="#FFFFFF" height="121.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="609.5" y="148.9219"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1103" y="239.9766"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1260.5" y="179.2734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="38" x2="38" y1="86.2188" y2="288.3281"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="394" x2="394" y1="86.2188" y2="288.3281"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="614" x2="614" y1="86.2188" y2="288.3281"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="810" x2="810" y1="86.2188" y2="288.3281"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="953" x2="953" y1="86.2188" y2="288.3281"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1108" x2="1108" y1="86.2188" y2="288.3281"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1265" x2="1265" y1="86.2188" y2="288.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="5" y="83.1426">Customer</text><ellipse cx="38.5" cy="17.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M38.5,25.1094 L38.5,52.1094 M25.5,33.1094 L51.5,33.1094 M38.5,52.1094 L25.5,67.1094 M38.5,52.1094 L51.5,67.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="185" x="302" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="95" x="347" y="57.5332">«presentation»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="309" y="75.1426">CheckStatusOpenOrdersUI</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="235" x="497" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="572.5" y="57.5332">«application»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="221" x="504" y="75.1426">CheckStatusOpenOrdersController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="742" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="765.5" y="57.5332">«persistence»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="749" y="75.1426">PersistenceContext</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="130" x="888" y="36"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="923.5" y="57.5332">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="895" y="75.1426">RepositoryFactory</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1065.5" y="65.5332">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1028" y="83.1426">ProductOrderRepository</text><path d="M1090,15 C1090,5 1108,5 1108,5 C1108,5 1126,5 1126,15 L1126,41 C1126,51 1108,51 1108,51 C1108,51 1090,51 1090,41 L1090,15 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1090,15 C1090,25 1108,25 1108,25 C1108,25 1126,25 1126,15 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="79" x="1223" y="65.5332">«repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="1198" y="83.1426">CostumerRepository</text><path d="M1247.5,15 C1247.5,5 1265.5,5 1265.5,5 C1265.5,5 1283.5,5 1283.5,15 L1283.5,41 C1283.5,51 1265.5,51 1265.5,51 C1265.5,51 1247.5,51 1247.5,41 L1247.5,15 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1247.5,15 C1247.5,25 1265.5,25 1265.5,25 C1265.5,25 1283.5,25 1283.5,15 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><rect fill="#FFFFFF" height="174.1094" style="stroke:#181818;stroke-width:1.0;" width="10" x="33.5" y="96.2188"/><rect fill="#FFFFFF" height="151.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="389.5" y="118.5703"/><rect fill="#FFFFFF" height="121.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="609.5" y="148.9219"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1103" y="239.9766"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1260.5" y="179.2734"/><polygon fill="#181818" points="377.5,114.5703,387.5,118.5703,377.5,122.5703,381.5,118.5703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="43.5" x2="383.5" y1="118.5703" y2="118.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="50.5" y="113.7139">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="61.5" y="113.7139">asks to check his/her open orders</text><polygon fill="#181818" points="597.5,144.9219,607.5,148.9219,597.5,152.9219,601.5,148.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="399.5" x2="603.5" y1="148.9219" y2="148.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="406.5" y="144.0654">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="417.5" y="144.0654">findCostumerByEmail()</text><polygon fill="#181818" points="1248.5,175.2734,1258.5,179.2734,1248.5,183.2734,1252.5,179.2734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="619.5" x2="1254.5" y1="179.2734" y2="179.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="626.5" y="174.417">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="637.5" y="174.417">findCostumerByEmail()</text><polygon fill="#181818" points="597.5,205.625,607.5,209.625,597.5,213.625,601.5,209.625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="399.5" x2="603.5" y1="209.625" y2="209.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="406.5" y="204.7686">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="417.5" y="204.7686">openOrdersByCustomer</text><polygon fill="#181818" points="1091,235.9766,1101,239.9766,1091,243.9766,1095,239.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="619.5" x2="1097" y1="239.9766" y2="239.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="626.5" y="235.1201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="637.5" y="235.1201">findOpenOrdersByCostumer</text><polygon fill="#181818" points="49.5,266.3281,39.5,270.3281,49.5,274.3281,45.5,270.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="43.5" x2="393.5" y1="270.3281" y2="270.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="55.5" y="265.4717">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="311" x="66.5" y="265.4717">shows all open orders (that haven't been delivered yet)</text><!--MD5=[8df9a28c2ee9398d03b61f04a507c28f]
+@startuml
+
+autonumber
+hide footbox
+
+actor "Customer" as ator
+participant CheckStatusOpenOrdersUI as checkUI <<presentation>>
+participant CheckStatusOpenOrdersController as checkController <<application>>
+participant PersistenceContext as persistence <<persistence>>
+participant RepositoryFactory as factory <<factory>>
+database ProductOrderRepository as productOrderRepo <<repository>>
+database CostumerRepository as costumerRepo <<repository>>
+
+activate ator
+
+ator -> checkUI : asks to check his/her open orders
+
+activate checkUI
+
+checkUI -> checkController : findCostumerByEmail()
+
+activate checkController
+
+checkController -> costumerRepo : findCostumerByEmail()
+
+activate costumerRepo
+
+checkUI -> checkController : openOrdersByCustomer
+
+deactivate costumerRepo
+
+checkController -> productOrderRepo : findOpenOrdersByCostumer
+
+activate productOrderRepo
+
+checkUI -> ator : shows all open orders (that haven't been delivered yet)
+
+deactivate productOrderRepo
+
+deactivate checkController
+
+deactivate checkUI
+
+deactivate ator
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

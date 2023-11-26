@@ -1,0 +1,48 @@
+ID: 4
+Title: Sapatilhas
+Obrigado Pela sua disposicao
+
+Section ID: 1
+Section Title: Satisfacao de sapatilhas
+compras recentes
+{mandatory}
+
+Question Type: 1
+Question ID: 1
+esta contente com a sua compra?
+{dependent}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 2
+numa escala de 0a5 qual a probabilidade de recomendar esta loja a um amigo?
+A. 1
+B. 2
+C. 3
+D. 4
+E. 5
+{mandatory}
+Extra Info: no info
+
+Section ID: 2
+Section Title: Futuras Compras
+apos primeira compra
+{optional}
+
+Question Type: 2
+Question ID: 1
+Pretende voltar a fazer compras na nossa loja?
+A. Sim
+B. Nao
+{optional}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 2
+Ficou satisfeito com a sua compra?
+A. Sim
+B. Nao
+{dependent}
+Extra Info: a sua satisfacao e importante para nos
+
+Final Message: obrigado pela sua confianca

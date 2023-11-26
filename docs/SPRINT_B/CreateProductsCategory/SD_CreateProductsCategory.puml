@@ -1,0 +1,48 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "Sales Clerk" as ator
+participant ": CreateProductsCategoryUI" as ui
+participant ": CreateProductsCategoryController" as controller
+participant ": PersistanceContext" as persistance <<persistance>>
+participant ": RepositoryFactory" as factory <<factory>>
+
+participant "repoProductsCategory : RepoProductsCategory" as productRepo <<persistencia>>
+
+activate ator
+
+ator -> ui: Create new category of products for sale
+activate ui
+
+ui --> ator: Ask for data(description, code)
+deactivate ui
+
+ator -> ui: Insert data
+activate ui
+
+ui -> controller: createProductsCategory(description, code)
+activate controller
+
+controller -> "productsCategory : ProductsCategory" **: create(description, code)
+
+controller -> persistance: repoProductsCategory = repositoryFactory
+activate persistance
+
+persistance -> factory: productsCategoryRepository()
+activate factory
+deactivate factory
+deactivate persistance
+
+
+
+controller -> productRepo : save(productsCategory)
+activate productRepo
+deactivate productRepo
+deactivate controller
+
+ui --> ator: Product category created with success
+deactivate ui
+
+@enduml

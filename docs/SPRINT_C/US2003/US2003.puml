@@ -1,0 +1,154 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor WarehouseEmployee
+
+participant GiveOrderToAGVUI as UI
+
+participant GiveOrderToAGVController as C
+
+participant GiveOrderToAGVService as S
+
+participant ProductOrderRepository as OR
+
+participant ProductOrder as PO
+
+participant ProductOrderDTO as DTO1
+
+participant AGVConfigurationRepository as CR
+
+participant AGV
+
+participant AGVDTO as DTO2
+
+
+
+WarehouseEmployee -> UI: "Give Order to AGV"
+activate UI
+
+UI -> C :allToBePreparedOrders()
+
+activate C
+
+C -> S:allToBePreparedOrders()
+
+activate S
+
+S -> OR :findToBePrepared()
+
+activate OR
+
+OR --> S:Iterable<ProductOrder>
+deactivate OR
+
+
+loop foreach ProductOrder
+
+S -> PO: toOrderDTO()
+activate PO
+PO -> DTO1**: create
+PO --> S: ProductOrderDTO
+deactivate PO
+end
+S --> C : Iterable<ProductOrderDTO>
+deactivate S
+C --> UI: Iterable<ProductOrderDTO>
+deactivate C
+UI --> WarehouseEmployee: Shows List of Orders
+deactivate UI
+
+
+WarehouseEmployee -> UI: Selects 1 Order
+activate UI
+
+UI -> C :allAvailableAGVs()
+
+activate C
+
+C -> S: allAvailableAGVs()
+
+activate S
+
+S -> CR :findAvailable()
+
+activate CR
+
+CR --> S:Iterable<AGV>
+deactivate CR
+
+
+loop foreach AGV
+
+S -> AGV: toAGVDTO()
+activate AGV
+AGV -> DTO2**: create
+AGV --> S: AGVDTO
+deactivate AGV
+end
+S --> C : Iterable<AGVDTO>
+deactivate S
+C --> UI: Iterable<AGVDTO>
+deactivate C
+
+
+
+
+WarehouseEmployee <-- UI: Shows List of AGVs
+deactivate
+WarehouseEmployee -> UI: Selects 1 AGV
+activate UI
+
+UI -> C :giveOrderToAGV(agvDTO,productOrderDTO)
+activate C
+
+C -> S:grabRealValues(agvDTO,productOrderDTO)
+activate S
+
+S->CR:findById(agvID)
+activate CR
+
+CR-->S:AGV
+deactivate CR
+S->OR:findById(orderId)
+activate OR
+OR-->S:ProductOrder
+deactivate OR
+
+S->AGV:changeTaskTo("Preparing Order :"+OrderId)
+activate AGV
+deactivate AGV
+S->AGV:changeStatusTo(status)
+activate AGV
+deactivate AGV
+S-> PO:changeStatusTo(status)
+
+activate PO
+deactivate PO
+
+S->CR :save(agv)
+activate CR
+deactivate CR
+S->OR :save(productOrder)
+activate OR
+deactivate OR
+deactivate CR
+S->CR:findById(agvID)
+activate CR
+CR-->S:AGV
+deactivate CR
+
+S -> AGV: toAGVDTO()
+activate AGV
+AGV -> DTO2**: create
+AGV --> S: AGVDTO
+deactivate AGV
+
+S-->C :AGVDTO
+deactivate S
+
+C-->UI:AGVDTO
+
+WarehouseEmployee <-- UI: Show that AGV is preparing Order
+deactivate
+@enduml

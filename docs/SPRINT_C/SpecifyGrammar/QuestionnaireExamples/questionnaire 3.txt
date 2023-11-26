@@ -1,0 +1,34 @@
+ID: 3
+Title: questionario xixde
+bem vindo a estes joguito mawuco
+
+Section ID: 1
+Section Title: grupo 1
+um grupo sobre comida
+{optional}
+Section Repeat: 1
+
+Question Type: 1
+Question ID: 1
+qual a sua comida preferida massa ou arroz?
+{mandatory}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 2
+qual a sua comida preferida?
+A. massa
+B. Pera
+C. Massa
+{mandatory}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 3
+qual a sua comida preferida?
+A. Pera
+B. Massa
+{mandatory}
+Extra Info: no info
+
+Final Message: obrigado por participar

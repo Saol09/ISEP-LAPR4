@@ -1,0 +1,59 @@
+@startuml
+
+autonumber
+hide footbox
+
+actor "Warehouse Employee" as actor
+participant ": ConfigureAGVUI" as ui
+participant ": ConfigureAGVController" as ctrl
+
+participant ": PersistenceContext" as persistence <<persistence>>
+participant ": RepositoryFactory" as factory <<factory>>
+participant "repoAGVConfiguration : RepoAGVConfiguration" as repo <<persistence>>
+
+actor -> ui: Ask to configure AGV
+activate ui
+activate actor
+
+ui -> ctrl: Checks if there are any available AGVs on Warehouse
+activate ctrl
+
+ctrl -> ui: Sends AGV available on Warehouse
+
+deactivate ctrl
+
+
+ui --> actor: Shows available AGVs on Warehouse
+deactivate ui
+
+actor -> ui: Chooses AGV to configure
+activate ui
+
+ui --> actor: Ask for data
+deactivate ui
+
+actor -> ui: Configure AGV data
+activate ui
+
+ui -> ctrl: configureAGV(id, shortDescription, model, weight, capacity, autonomy, status)
+activate ctrl
+
+
+ctrl -> persistence: repoAGVConfiguration = repositoryFactory
+activate persistence
+
+persistence -> factory: agvConfigurationRepository()
+activate factory
+
+deactivate factory
+deactivate persistence
+
+ctrl -> repo : save(agvConfiguration)
+activate repo
+deactivate repo
+deactivate ctrl
+
+ui --> actor: Configuration of AGV was a success
+deactivate ui
+
+@enduml

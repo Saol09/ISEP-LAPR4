@@ -1,0 +1,74 @@
+ID: 1
+Title: questionario xixde
+bem vindo a estes joguito mawuco
+
+Section ID: 1
+Section Title: grupo 1
+um grupo sobre comida
+{optional}
+Section Repeat: 1
+
+Question Type: 1
+Question ID: 1
+qual a sua comida preferida massa ou arroz?
+{optional}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 2
+qual a sua comida preferida?
+A. massa
+B. Pera
+C. Massa
+{optional}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 3
+qual a sua fruta preferida?
+A. maca
+B. Pera
+C. banana
+{optional}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 4
+qual a sua bebida preferida?
+A. sumo
+B. agua
+C. Vinho
+{optional}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 5
+qual a sua comida preferida?
+A. massa
+B. Pera
+C. Massa
+{optional}
+Extra Info: no info
+
+Question Type: 2
+Question ID: 6
+qual a sua comida preferida?
+A. massa
+B. Pera
+C. Massa
+{optional}
+Extra Info: no info
+
+Section ID: 2
+Section Title: grupo 2
+um grupo sobre carros
+{mandatory}
+Section Repeat: 1
+
+Question Type: 1
+Question ID: 1
+qual o tipo de carro preferido cabrio ou carrinha?
+{mandatory}
+Extra Info: no info
+
+Final Message: obrigado por participar

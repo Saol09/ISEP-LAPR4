@@ -1,0 +1,98 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+hide footbox
+
+actor "Sales Clerk" as ator
+participant RegisterCostumerOrderUI as costumerOrderUi <<presentation>>
+participant RegisterCostumerOrderController as costumerOrderController <<application>>
+participant ProductCatalogUI as ProductCatalogUI <<presentation>>
+database ProductRepository as productRepository <<repository>>
+database CostumerRepository as costumerRepository <<repository>>
+participant RegisterCostumerUI as registerCostumerUI <<presentation>>
+participant PersistenceContext as persistence <<persistence>>
+participant RepositoryFactory as factory <<factory>>
+participant "costumerOrder:ProductOrder" as costumerOrder
+database ProductOrderRepository as productOrderRepository <<repository>>
+
+
+activate ator
+ator -> costumerOrderUi: Starts a Product Order
+activate costumerOrderUi
+costumerOrderUi --> ator: Asks if he wants to check product catalog
+deactivate costumerOrderUi
+ator -> costumerOrderUi: Inserts the method
+activate costumerOrderUi
+costumerOrderUi -> ProductCatalogUI: create
+loop While he wants to add products
+    alt In case he wants to see catalog
+
+        activate ProductCatalogUI
+        ProductCatalogUI -> ProductCatalogUI: doShow()
+        activate ProductCatalogUI
+        deactivate ProductCatalogUI
+        deactivate ProductCatalogUI
+        costumerOrderUi -->ator: Shows the products and requests product id.
+        deactivate costumerOrderUi
+    end alt
+    ator -> costumerOrderUi: Inserts product id
+    activate costumerOrderUi
+    costumerOrderUi -> costumerOrderController: checkProductId(productID)
+    activate costumerOrderController
+    costumerOrderController -> productRepository: checkProductId(productID)
+    activate productRepository
+    deactivate productRepository
+    deactivate costumerOrderController
+    costumerOrderUi --> ator: Requests quantity
+    deactivate costumerOrderUi
+    ator -> costumerOrderUi: Inserts quantity
+    activate costumerOrderUi
+
+end
+
+costumerOrderUi --> ator: Requests Costumer ID
+deactivate costumerOrderUi
+ator -> costumerOrderUi: Inserts Costumer Id
+activate costumerOrderUi
+costumerOrderUi -> costumerOrderController: checkCostumerId(costumerID)
+activate costumerOrderController
+costumerOrderController -> costumerRepository: checkCostumerId(costumerId)
+activate costumerRepository
+deactivate costumerRepository
+alt "If Costumer is not registered"
+costumerOrderController -> registerCostumerUI: create
+activate registerCostumerUI
+registerCostumerUI -> registerCostumerUI: doShow()
+activate registerCostumerUI
+deactivate registerCostumerUI
+deactivate registerCostumerUI
+end
+deactivate costumerOrderController
+costumerOrderUi --> ator: Requests data required to register the order
+deactivate costumerOrderUi
+ator -> costumerOrderUi: Inserts the required data
+activate costumerOrderUi
+costumerOrderUi -> costumerOrderController: registerOrder(items, deliveringAddress,\n billingAddress, shipment, communicationMethod,\n communicationDate, comment, payment)
+activate costumerOrderController
+costumerOrderController -> costumerOrder: (items, deliveringAddress,\n billingAddress, shipment, communicationMethod,\n communicationDate, comment, payment)
+activate costumerOrder
+costumerOrder --> costumerOrderController: costumerOrder
+deactivate costumerOrder
+costumerOrderController -> persistence: repositories()
+activate persistence
+persistence -> factory: create
+deactivate persistence
+
+costumerOrderController -> factory: costumerOrders()
+activate factory
+deactivate factory
+costumerOrderController -> productOrderRepository: save(costumerOrder)
+activate productOrderRepository
+deactivate productOrderRepository
+costumerOrderController --> costumerOrderUi
+deactivate costumerOrderController
+costumerOrderUi --> ator: Informs Success
+deactivate costumerOrderUi
+
+@enduml

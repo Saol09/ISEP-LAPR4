@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="455px" preserveAspectRatio="none" style="width:1767px;height:455px;background:#FFFFFF;" version="1.1" viewBox="0 0 1767 455" width="1767px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="346.4219" style="stroke:#181818;stroke-width:1.0;" width="10" x="39" y="92.6094"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="312" y="114.9609"/><rect fill="#FFFFFF" height="254.3672" style="stroke:#181818;stroke-width:1.0;" width="10" x="312" y="175.6641"/><rect fill="#FFFFFF" height="193.6641" style="stroke:#181818;stroke-width:1.0;" width="10" x="599" y="206.0156"/><rect fill="#FFFFFF" height="60.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="885" y="278.9766"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1097" y="309.3281"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1334.5" y="369.6797"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="44" x2="44" y1="82.6094" y2="448.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="316.5" x2="316.5" y1="82.6094" y2="448.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="603.5" x2="603.5" y1="82.6094" y2="448.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="890" x2="890" y1="82.6094" y2="448.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1102" x2="1102" y1="82.6094" y2="448.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1339" x2="1339" y1="82.6094" y2="448.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1634" x2="1634" y1="245.3203" y2="448.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="5" y="79.5332">Sales Clerk</text><ellipse cx="44" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M44,21.5 L44,48.5 M31,29.5 L57,29.5 M44,48.5 L31,63.5 M44,48.5 L57,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="191" x="221.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="228.5" y="71.5332">: CreateProductsCategoryUI</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="483.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="490.5" y="71.5332">: CreateProductsCategoryController</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="144" x="818" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="845.5" y="53.9238">«persistance»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="825" y="71.5332">: PersistanceContext</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="1033" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="59" x="1072.5" y="53.9238">«factory»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1040" y="71.5332">: RepositoryFactory</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="317" x="1181" y="32.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="92" x="1293.5" y="53.9238">«persistencia»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="303" x="1188" y="71.5332">repoProductsCategory : RepoProductsCategory</text><rect fill="#FFFFFF" height="346.4219" style="stroke:#181818;stroke-width:1.0;" width="10" x="39" y="92.6094"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="312" y="114.9609"/><rect fill="#FFFFFF" height="254.3672" style="stroke:#181818;stroke-width:1.0;" width="10" x="312" y="175.6641"/><rect fill="#FFFFFF" height="193.6641" style="stroke:#181818;stroke-width:1.0;" width="10" x="599" y="206.0156"/><rect fill="#FFFFFF" height="60.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="885" y="278.9766"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1097" y="309.3281"/><rect fill="#FFFFFF" height="30" style="stroke:#181818;stroke-width:1.0;" width="10" x="1334.5" y="369.6797"/><polygon fill="#181818" points="300,110.9609,310,114.9609,300,118.9609,304,114.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="49" x2="306" y1="114.9609" y2="114.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="56" y="110.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="233" x="67" y="110.1045">Create new category of products for sale</text><polygon fill="#181818" points="60,141.3125,50,145.3125,60,149.3125,56,145.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="54" x2="316" y1="145.3125" y2="145.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="140.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="77" y="140.4561">Ask for data(description, code)</text><polygon fill="#181818" points="300,171.6641,310,175.6641,300,179.6641,304,175.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="49" x2="306" y1="175.6641" y2="175.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="56" y="170.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="67" y="170.8076">Insert data</text><polygon fill="#181818" points="587,202.0156,597,206.0156,587,210.0156,591,206.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="322" x2="593" y1="206.0156" y2="206.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="329" y="201.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="247" x="340" y="201.1592">createProductsCategory(description, code)</text><polygon fill="#181818" points="1496,232.3672,1506,236.3672,1496,240.3672,1500,236.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="609" x2="1502" y1="236.3672" y2="236.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="616" y="231.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="627" y="231.5107">create(description, code)</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="253" x="1508" y="214.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="1515" y="235.5488">productsCategory : ProductsCategory</text><polygon fill="#181818" points="873,274.9766,883,278.9766,873,282.9766,877,278.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="609" x2="879" y1="278.9766" y2="278.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="616" y="274.1201">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="246" x="627" y="274.1201">repoProductsCategory = repositoryFactory</text><polygon fill="#181818" points="1085,305.3281,1095,309.3281,1085,313.3281,1089,309.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="895" x2="1091" y1="309.3281" y2="309.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="902" y="304.4717">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="172" x="913" y="304.4717">productsCategoryRepository()</text><polygon fill="#181818" points="1322.5,365.6797,1332.5,369.6797,1322.5,373.6797,1326.5,369.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="609" x2="1328.5" y1="369.6797" y2="369.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="616" y="364.8232">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="627" y="364.8232">save(productsCategory)</text><polygon fill="#181818" points="60,426.0313,50,430.0313,60,434.0313,56,430.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="54" x2="316" y1="430.0313" y2="430.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="425.1748">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="77" y="425.1748">Product category created with success</text><!--MD5=[6f61948b0ca71ddf81bfd5b8ee26f847]
+@startuml
+
+autonumber
+hide footbox
+
+actor "Sales Clerk" as ator
+participant ": CreateProductsCategoryUI" as ui
+participant ": CreateProductsCategoryController" as controller
+participant ": PersistanceContext" as persistance <<persistance>>
+participant ": RepositoryFactory" as factory <<factory>>
+
+participant "repoProductsCategory : RepoProductsCategory" as productRepo <<persistencia>>
+
+activate ator
+
+ator -> ui: Create new category of products for sale
+activate ui
+
+ui - -> ator: Ask for data(description, code)
+deactivate ui
+
+ator -> ui: Insert data
+activate ui
+
+ui -> controller: createProductsCategory(description, code)
+activate controller
+
+controller -> "productsCategory : ProductsCategory" **: create(description, code)
+
+controller -> persistance: repoProductsCategory = repositoryFactory
+activate persistance
+
+persistance -> factory: productsCategoryRepository()
+activate factory
+deactivate factory
+deactivate persistance
+
+
+
+controller -> productRepo : save(productsCategory)
+activate productRepo
+deactivate productRepo
+deactivate controller
+
+ui - -> ator: Product category created with success
+deactivate ui
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 14:29:17 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

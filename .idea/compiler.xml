@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base.app.agvmanager" />
+        <module name="base.app.httpserver" />
+        <module name="base.app.other.console" />
+        <module name="agvmanager" />
+        <module name="agvdigitaltwin" />
+        <module name="base.app.common.console" />
+        <module name="base.app.backoffice.console" />
+        <module name="base.app.bootstrap" />
+        <module name="backofficeaplication" />
+        <module name="base.persistence.impl" />
+        <module name="base.app.agvdigitaltwin" />
+        <module name="base.app.backofficeaplication" />
+        <module name="base.app.user.console" />
+        <module name="base.core" />
+        <module name="base.bootstrappers" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
