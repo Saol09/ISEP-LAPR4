@@ -11,7 +11,7 @@
     <properties>
         <eapli.framework.core.version>v18.1.0_CORE</eapli.framework.core.version>
         <eapli.framework.authz.version>v17.4.1_AUTHZ</eapli.framework.authz.version>
-        <eapli.framework.pubsub.version>v16.7.0_PUBSUB</eapli.framework.pubsub.version>
+        <eapli.framework.pubsub.version>v16.8.0_PUBSUB</eapli.framework.pubsub.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
