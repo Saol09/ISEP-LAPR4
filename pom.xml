@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <eapli.framework.core.version>v18.1.0_CORE</eapli.framework.core.version>
+        <eapli.framework.core.version>v18.2.0_CORE</eapli.framework.core.version>
         <eapli.framework.authz.version>v17.4.1_AUTHZ</eapli.framework.authz.version>
         <eapli.framework.pubsub.version>v16.7.0_PUBSUB</eapli.framework.pubsub.version>
 
